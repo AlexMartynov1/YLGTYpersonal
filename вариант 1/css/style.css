@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    
+    padding-right: 40px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    flex-direction: row;
+}
+.anav{
+    display: flex;
+    flex-direction: row;
+}
+.anav li{
+    margin-right: 15px;
+} 
+ul {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    list-style: none;
+    border: hotpink;
+    display: flex;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.intro{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-image: url(../images/bg.jpg);
+    color: #fff;
+    height: 600px;
+}
+.service{
+    justify-content: center
+    ;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.service li {
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Pading{
+    padding-left: 40px;
+}
+
+.Pading1{
+    padding-left: 40px;
+    height: 400px;
+}
+
+.lol{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: gray;
+    color: #fff;
+    height: 300px;
+}
+
+.lolo{
+    margin: 100px;
+}
