@@ -1,0 +1,82 @@
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.r{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.formlog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_login{
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: solid 5px rgb(0, 0, 0);
+    
+    
+}
+
+.form_pass{
+    margin: 10px;
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: solid 5px rgb(0, 0, 0);
+}
+
+::placeholder{
+    color: white;
+}
+
+
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+html{
+    height: 1000px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.but{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: solid 5px rgb(0, 0, 0);
+    font-size: 25px;
+    color: white;
+}
