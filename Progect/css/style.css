@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    width: 200px;
+    height: 70px;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    justify-content: center ;
+    background-image: url(https://www.northlandscapes.com/files/images/portfolio/northlandscapes-greenland-disko-bay-beyond-no-mans-land-04.jpg);
+    max-width: 1770px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5{
+ margin-top: 0px;
+ color: white;
+}
+
+h2{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+h1{
+    color: white;
+}
