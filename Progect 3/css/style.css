@@ -1,0 +1,30 @@
+
+li {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "La Macchina";
+    src: url(fonts/11a.otf);
+   }
+
+h1{
+    font-family: La Macchina;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    height: 1000px;
+
+    background: linear-gradient(190deg, #bb0000, #000000);
+}
